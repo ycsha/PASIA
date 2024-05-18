@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now
+    </title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.center {
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.product-cell {
+    width: 30%; /* Adjust as needed based on your layout */
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>Products</h1>
+    </header>
+    <div class="container">
+        <table>
+            <tbody>
+                <tr class="product-row">
+                    <td class="product-cell">
+                        <img src="new1.webp"alt="Product A" class="product-image"><br>
+                        <strong>Product A</strong><br>
+                        Price: $10.00<br>
+                        Quantity: 5
+                    </td>
+                    <td class="product-cell">
+                        <img src="new2.webp" alt="Product B" class="product-image"><br>
+                        <strong>Product B</strong><br>
+                        Price: $15.00<br>
+                        Quantity: 3
+                    </td>
+                    <td class="product-cell">
+                        <img src="new3.webp" alt="Product C" class="product-image"><br>
+                        <strong>Product C</strong><br>
+                        Price: $20.00<br>
+                        Quantity: 7
+                    </td>
+                </tr>
+                <!-- Add more rows for additional products -->
+            </tbody>
+        </table>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
